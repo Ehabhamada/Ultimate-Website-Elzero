@@ -7,7 +7,7 @@
 :root {
   --main-color: #2196f3;
   --main-color-alt: #1787e0;
-  --main-transition: 0.3s;
+  --main-transition: 0.5s;
   --main-padding-top: 100px;
   --main-padding-bottom: 100px;
   --section-background: #ececec;
@@ -214,6 +214,7 @@ ul {
   top: calc(100% + 50px);
   opacity: 0;
   transition: top var(--main-transition), opacity var(--main-transition);
+
 }
 @media (max-width: 767px) {
   .header .mega-menu {
